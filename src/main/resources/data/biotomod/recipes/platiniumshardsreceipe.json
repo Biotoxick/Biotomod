@@ -1,0 +1,13 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:platinium"
+    }
+  ],
+  "result": {
+    "item": "biotomod:platinium_shard",
+    "count": 5
+  }
+}

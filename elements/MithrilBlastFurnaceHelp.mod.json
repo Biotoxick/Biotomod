@@ -1,0 +1,146 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 167,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Help :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Help :",
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Can smelt and duplicate all vanilla",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Can smelt and duplicate all vanilla",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and biotomod ores.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "and biotomod ores.",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Need Oiled Wood to run.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Need Oiled Wood to run.",
+          "x": 123,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "x2 on iron, gold, ancient debris,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "x2 on iron, gold, ancient debris,",
+          "x": 123,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "titanium and mithril.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "titanium and mithril.",
+          "x": 123,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "x5 on platinum.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "x5 on platinum.",
+          "x": 123,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "x8 on coal.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "x8 on coal.",
+          "x": 123,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "x16 on quartz, redstone and lapis.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "x16 on quartz, redstone and lapis.",
+          "x": 123,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "Closeallgui"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 249,
+          "y": 44
+        }
+      }
+    ]
+  }
+}

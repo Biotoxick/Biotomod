@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mithril_axe",
+    "customModelName": "Normal",
+    "name": "Mithril Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 8,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 11.0,
+    "usageCount": 1741,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MithrilIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

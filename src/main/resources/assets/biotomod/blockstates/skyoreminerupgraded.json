@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "biotomod:block/skyoreminerupgraded"
+    },
+    "facing=east": {
+      "model": "biotomod:block/skyoreminerupgraded",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "biotomod:block/skyoreminerupgraded",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "biotomod:block/skyoreminerupgraded",
+      "y": 270
+    }
+  }
+}

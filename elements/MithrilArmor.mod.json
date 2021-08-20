@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "mithril_helmet_texture",
+    "enableBody": true,
+    "textureBody": "mithril_chestplate_texture",
+    "enableLeggings": true,
+    "textureLeggings": "mithril_leggings_texture",
+    "enableBoots": true,
+    "textureBoots": "mithril_boots_texture",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "armorTextureFile": "mithril_armor_texture",
+    "helmetName": "Mithril Armor Helmet",
+    "bodyName": "Mithril Armor Body",
+    "leggingsName": "Mithril Armor Leggings",
+    "bootsName": "Mithril Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 35,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 15,
+    "toughness": 0.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:MithrilIngot"
+      }
+    ]
+  }
+}

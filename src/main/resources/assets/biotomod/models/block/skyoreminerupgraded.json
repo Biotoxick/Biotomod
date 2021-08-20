@@ -1,0 +1,10 @@
+{
+  "parent": "biotomod:custom/sky_ore_miner_upgraded_model",
+  "textures": {
+    "all": "biotomod:blocks/skoreminerupgradedtxtiso",
+    "particle": "biotomod:blocks/skoreminerupgradedtxtiso",
+    "0": "biotomod:blocks/parallelic_ore_block",
+    "1": "biotomod:blocks/glass",
+    "2": "biotomod:blocks/prise"
+  }
+}

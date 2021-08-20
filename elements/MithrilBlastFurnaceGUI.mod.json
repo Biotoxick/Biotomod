@@ -1,0 +1,278 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 208,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:TitaneOre"
+          },
+          "color": {
+            "value": -12273200,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Oiledwooditem"
+          },
+          "color": {
+            "value": -6417131,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -13007569,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress100.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress100"
+          },
+          "name": "progress100.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress75.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress75"
+          },
+          "name": "progress75.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress50"
+          },
+          "name": "progress50.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress25"
+          },
+          "name": "progress25.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire_resistance.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Mithrilfuraceon"
+          },
+          "name": "fire_resistance.png",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mithril Blast Furnace",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mithril Blast Furnace",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redstone_dust.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Redstonetrue"
+          },
+          "name": "redstone_dust.png",
+          "x": 121,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress0"
+          },
+          "name": "0%",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "25%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress25"
+          },
+          "name": "25%",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress50"
+          },
+          "name": "50%",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "75%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress75"
+          },
+          "name": "75%",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress100"
+          },
+          "name": "100%",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Help",
+          "onClick": {
+            "name": "OpenMithrilGuiHelp"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Help",
+          "x": 244,
+          "y": 93
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "V",
+          "onClick": {
+            "name": "Setactiveonredstone"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "V",
+          "x": 114,
+          "y": 42
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_off.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RedstoneFalse"
+          },
+          "name": "red_off.png",
+          "x": 121,
+          "y": 63
+        }
+      }
+    ]
+  }
+}

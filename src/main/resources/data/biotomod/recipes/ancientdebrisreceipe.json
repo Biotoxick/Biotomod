@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:netherrack"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "3": {
+      "item": "minecraft:netherrack"
+    },
+    "4": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "5": {
+      "item": "minecraft:netherrack"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "minecraft:netherrack"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:ancient_debris",
+    "count": 1
+  }
+}

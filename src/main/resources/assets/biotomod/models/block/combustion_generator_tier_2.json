@@ -1,0 +1,8 @@
+{
+  "parent": "biotomod:custom/combustion_generatort2",
+  "textures": {
+    "all": "biotomod:blocks/cbtxtt2iso",
+    "particle": "biotomod:blocks/cbtxtt2iso",
+    "0": "biotomod:blocks/cgt2ress"
+  }
+}

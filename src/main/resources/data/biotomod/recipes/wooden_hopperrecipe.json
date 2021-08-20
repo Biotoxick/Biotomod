@@ -1,0 +1,33 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "biotomod:wooden_hopper",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "biotomod:block/biotoworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "biotomod:block/biotoworld_portal_ns"
+    }
+  }
+}

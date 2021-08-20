@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "teleporter_binder_texture",
+    "customModelName": "Normal",
+    "name": "Teleporter Binder",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "-Used to bind a location and teleport with the teleporter frame block",
+      "-Target a block and right-clic to bint him to this location",
+      "-Put in Teleporter Frame or Portable Teleporter"
+    ],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "TeleporterBinderMakeItemGlow"
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "TeleporterBinderRightClickedOnBlock"
+    }
+  }
+}

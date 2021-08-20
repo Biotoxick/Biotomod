@@ -1,0 +1,16 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:parallelic_upgrade"
+    },
+    {
+      "item": "biotomod:comnustion_generator"
+    }
+  ],
+  "result": {
+    "item": "biotomod:combustion_generator_tier_2",
+    "count": 1
+  }
+}

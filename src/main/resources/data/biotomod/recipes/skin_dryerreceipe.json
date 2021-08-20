@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_log"
+    },
+    "1": {
+      "item": "biotomod:woodgear"
+    },
+    "2": {
+      "item": "minecraft:oak_log"
+    },
+    "3": {
+      "item": "biotomod:woodgear"
+    },
+    "4": {
+      "item": "biotomod:iron_gear"
+    },
+    "5": {
+      "item": "biotomod:woodgear"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    },
+    "7": {
+      "item": "biotomod:woodgear"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "biotomod:skin_dryer",
+    "count": 1
+  }
+}

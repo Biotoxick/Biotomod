@@ -1,0 +1,10 @@
+{
+  "parent": "biotomod:custom/mithrilblastfurnacemodel",
+  "textures": {
+    "all": "biotomod:blocks/mithrilblastfurnaceitemrsiso",
+    "particle": "biotomod:blocks/mithrilblastfurnaceitemrsiso",
+    "0": "biotomod:blocks/mithril_block_texture",
+    "1": "biotomod:blocks/coal_block",
+    "missing": "biotomod:blocks/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:skyoreminer"
+    },
+    "title": {
+      "translate": "advancements.craft_sky_ore_miner.title"
+    },
+    "description": {
+      "translate": "advancements.craft_sky_ore_miner.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_sky_ore_miner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biotomod:skyoreminer",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:craft_skin_dryer"
+}

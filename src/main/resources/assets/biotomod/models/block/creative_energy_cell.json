@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biotomod:blocks/debug",
+    "up": "biotomod:blocks/debug",
+    "north": "biotomod:blocks/debug",
+    "east": "biotomod:blocks/debug",
+    "south": "biotomod:blocks/debug",
+    "west": "biotomod:blocks/debug",
+    "particle": "biotomod:blocks/debug"
+  }
+}

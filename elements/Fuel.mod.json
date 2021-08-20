@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Oiledwooditem"
+      },
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "fuel",
+    "namespace": "forge"
+  }
+}

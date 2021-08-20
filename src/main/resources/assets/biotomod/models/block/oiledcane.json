@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biotomod:blocks/oiled_wood",
+    "particle": "biotomod:blocks/oiled_wood"
+  }
+}

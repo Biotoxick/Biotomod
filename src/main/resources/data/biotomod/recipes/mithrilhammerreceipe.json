@@ -1,0 +1,36 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "1": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "2": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "3": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "4": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "5": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "7": {
+      "item": "biotomod:mithril_stick"
+    }
+  },
+  "result": {
+    "item": "biotomod:mithril_hammer",
+    "count": 1
+  }
+}

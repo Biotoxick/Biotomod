@@ -1,0 +1,484 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -12090832,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgraded Sky Ore Miner",
+          "color": {
+            "value": -11447012,
+            "falpha": 0.0
+          },
+          "name": "Upgraded Sky Ore Miner",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -4238509,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Research :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Research :",
+          "x": 158,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress0"
+          },
+          "name": "0%",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress25"
+          },
+          "name": "progress25.png",
+          "x": 190,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress50"
+          },
+          "name": "progress50.png",
+          "x": 190,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress75.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress75"
+          },
+          "name": "progress75.png",
+          "x": 190,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress100.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress100"
+          },
+          "name": "progress100.png",
+          "x": 190,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "25%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress25"
+          },
+          "name": "25%",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress50"
+          },
+          "name": "50%",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "75%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress75"
+          },
+          "name": "75%",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "100%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Progress100"
+          },
+          "name": "100%",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Help",
+          "onClick": {
+            "name": "Skyoreminerneedhelp"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Help",
+          "x": 247,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "!No Energy!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NoEnergyDysplay"
+          },
+          "name": "!No Energy!",
+          "x": 236,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf100.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf100"
+          },
+          "name": "rf100.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf90.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf90"
+          },
+          "name": "rf90.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf80.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf80"
+          },
+          "name": "rf80.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf70.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf70"
+          },
+          "name": "rf70.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf60.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf60"
+          },
+          "name": "rf60.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf50"
+          },
+          "name": "rf50.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf40.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf40"
+          },
+          "name": "rf40.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf30.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf30"
+          },
+          "name": "rf30.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf20"
+          },
+          "name": "rf20.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf10"
+          },
+          "name": "rf10.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf5"
+          },
+          "name": "rf5.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rf0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rf0"
+          },
+          "name": "rf0.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<energy>",
+          "x": 152,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-------",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-------",
+          "x": 152,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "400,000",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "400,000",
+          "x": 152,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "rf:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "rf:",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "V",
+          "onClick": {
+            "name": "Setactiveonredstone"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "V",
+          "x": 256,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redstone_dust.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Redstonetrue"
+          },
+          "name": "redstone_dust.png",
+          "x": 263,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_off.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "RedstoneFalse"
+          },
+          "name": "red_off.png",
+          "x": 263,
+          "y": 62
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "parallelic_ore_block",
+        "1": "glass",
+        "2": "prise"
+      },
+      "name": "default"
+    }
+  }
+}

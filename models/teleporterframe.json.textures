@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ancient_debris_side",
+        "1": "netherrack",
+        "2": "obsidian",
+        "3": "texture_3",
+        "missing": "texture_3"
+      },
+      "name": "default"
+    }
+  }
+}

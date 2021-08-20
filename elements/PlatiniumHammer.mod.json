@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammer",
+    "customModelName": "Normal",
+    "name": "Platinium Hammer",
+    "specialInfo": [
+      "-A 3x3 Hammer",
+      "-Grants permanent Haste I"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 15.0,
+    "attackSpeed": 1.4,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platinium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "PlatiniumHammerToolInHandTick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "Hammer"
+    }
+  }
+}

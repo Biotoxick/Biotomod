@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mithril_block_texture",
+        "1": "coal_block",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

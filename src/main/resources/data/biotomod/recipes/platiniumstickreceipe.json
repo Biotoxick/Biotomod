@@ -1,0 +1,36 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "biotomod:platinium_shard"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "biotomod:platinium_shard"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "biotomod:platinium_shard"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "biotomod:platinium_stick",
+    "count": 1
+  }
+}

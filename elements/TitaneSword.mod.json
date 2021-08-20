@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titane_sword",
+    "customModelName": "Normal",
+    "name": "Titane Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 9.0,
+    "usageCount": 441,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaneIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

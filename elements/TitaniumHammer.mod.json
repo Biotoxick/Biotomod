@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stone_hammer",
+    "customModelName": "Normal",
+    "name": "Titanium Hammer",
+    "specialInfo": [
+      "-A 3x3 Hammer"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 6.5,
+    "attackSpeed": 1.1,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaneIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Hammer"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biotomod:blocks/biotable_faces",
+    "up": "biotomod:blocks/biotable_top",
+    "north": "biotomod:blocks/biotable_faces",
+    "east": "biotomod:blocks/biotable_faces",
+    "south": "biotomod:blocks/biotable_faces",
+    "west": "biotomod:blocks/biotable_faces",
+    "particle": "biotomod:blocks/biotable_faces"
+  }
+}

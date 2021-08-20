@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biotomod:blocks/titanium_block_texture",
+    "up": "biotomod:blocks/titanium_block_texture",
+    "north": "biotomod:blocks/titanium_block_texture",
+    "east": "biotomod:blocks/titanium_block_texture",
+    "south": "biotomod:blocks/titanium_block_texture",
+    "west": "biotomod:blocks/titanium_block_texture",
+    "particle": "biotomod:blocks/titanium_block_texture"
+  }
+}

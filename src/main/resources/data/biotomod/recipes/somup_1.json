@@ -1,0 +1,16 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:parallelic_upgrade"
+    },
+    {
+      "item": "biotomod:skyoreminer"
+    }
+  ],
+  "result": {
+    "item": "biotomod:skyoreminerupgraded",
+    "count": 1
+  }
+}

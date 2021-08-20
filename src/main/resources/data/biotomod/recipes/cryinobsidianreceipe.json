@@ -1,0 +1,16 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crying_obsidian",
+    "count": 1
+  }
+}

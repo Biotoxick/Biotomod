@@ -1,0 +1,16 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:titane_ingot"
+    },
+    {
+      "item": "biotomod:titane_ingot"
+    }
+  ],
+  "result": {
+    "item": "biotomod:titane_stick",
+    "count": 1
+  }
+}

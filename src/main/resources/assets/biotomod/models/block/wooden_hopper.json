@@ -1,0 +1,9 @@
+{
+  "parent": "biotomod:custom/woodehopper",
+  "textures": {
+    "all": "biotomod:blocks/woodenhopperress",
+    "particle": "biotomod:blocks/woodenhopperress",
+    "0": "biotomod:blocks/oak_planks_2",
+    "missing": "biotomod:blocks/"
+  }
+}

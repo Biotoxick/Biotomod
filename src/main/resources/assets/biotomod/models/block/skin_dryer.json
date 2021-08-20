@@ -1,0 +1,9 @@
+{
+  "parent": "biotomod:custom/skin_dryer",
+  "textures": {
+    "all": "biotomod:blocks/skindryer",
+    "particle": "biotomod:blocks/skindryer",
+    "0": "biotomod:blocks/texture_0",
+    "1": "biotomod:blocks/texture_1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:mithril_ingot"
+    }
+  ],
+  "result": {
+    "item": "biotomod:mithril_nugget",
+    "count": 9
+  }
+}

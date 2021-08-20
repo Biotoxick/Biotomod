@@ -1,0 +1,11 @@
+{
+  "parent": "biotomod:custom/mithrilblastfurnacemodelt3",
+  "textures": {
+    "all": "biotomod:blocks/mbfupt3txtiso",
+    "particle": "biotomod:blocks/mbfupt3txtiso",
+    "0": "biotomod:blocks/diamond_block",
+    "1": "biotomod:blocks/coal_block",
+    "2": "biotomod:blocks/parallelic_ore_block",
+    "missing": "biotomod:blocks/"
+  }
+}

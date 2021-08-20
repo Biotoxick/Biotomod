@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:skyoreminerupgraded"
+    },
+    "title": {
+      "translate": "advancements.somt_2.title"
+    },
+    "description": {
+      "translate": "advancements.somt_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "somt_2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "biotomod:skyoreminerupgraded"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:tier_1_upgrade"
+}

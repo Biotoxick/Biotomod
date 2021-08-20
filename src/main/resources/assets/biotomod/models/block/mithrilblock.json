@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biotomod:blocks/mithril_block_texture",
+    "up": "biotomod:blocks/mithril_block_texture",
+    "north": "biotomod:blocks/mithril_block_texture",
+    "east": "biotomod:blocks/mithril_block_texture",
+    "south": "biotomod:blocks/mithril_block_texture",
+    "west": "biotomod:blocks/mithril_block_texture",
+    "particle": "biotomod:blocks/mithril_block_texture"
+  }
+}

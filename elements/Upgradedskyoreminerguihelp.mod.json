@@ -1,0 +1,107 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 117,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgraded Sky Ore Miner",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Upgraded Sky Ore Miner",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Can generate all vanilla and",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Can generate all vanilla and",
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "biotomod ores, except Parallelic.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "biotomod ores, except Parallelic.",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Can also generate some blocs :",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Can also generate some blocs :",
+          "x": 132,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Obsidian, Clay, Grass, Sand,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Obsidian, Clay, Grass, Sand,",
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Gravel, and netherrack.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Gravel, and netherrack.",
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "Closeallgui"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 186,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "portable_teleporter_texture",
+    "customModelName": "Normal",
+    "name": "Portable Teleporter",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "-Run like a teleporter frame",
+      "-Allow you to rename teleport binders",
+      "-Can also store 3 more binders"
+    ],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "PortableteleporteritemMakeItemGlow"
+    },
+    "guiBoundTo": "PortableTeleporter",
+    "inventorySize": 4,
+    "inventoryStackSize": 1
+  }
+}

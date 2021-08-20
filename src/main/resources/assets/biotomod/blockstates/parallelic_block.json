@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "biotomod:block/parallelic_block"
+    }
+  }
+}

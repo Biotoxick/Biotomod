@@ -1,0 +1,16 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:platinum_upgrade"
+    },
+    {
+      "item": "biotomod:mithril_blast_furnace_upgraded"
+    }
+  ],
+  "result": {
+    "item": "biotomod:mithril_blast_furnacet_3",
+    "count": 1
+  }
+}

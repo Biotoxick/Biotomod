@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "1": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "4": {
+      "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "6": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "8": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "biotomod:mithrilore",
+    "count": 1
+  }
+}

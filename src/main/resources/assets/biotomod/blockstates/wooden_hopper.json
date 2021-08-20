@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "biotomod:block/wooden_hopper"
+    },
+    "facing=east": {
+      "model": "biotomod:block/wooden_hopper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "biotomod:block/wooden_hopper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "biotomod:block/wooden_hopper",
+      "y": 270
+    }
+  }
+}

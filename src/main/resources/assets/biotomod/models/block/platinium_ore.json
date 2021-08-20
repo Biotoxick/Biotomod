@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "up": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "north": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "east": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "south": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "west": "biotomod:blocks/platinium_ore_by_creepes_god",
+    "particle": "biotomod:blocks/platinium_ore_by_creepes_god"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "biotomod:custom/sky_ore_miner_model_redstone",
+  "textures": {
+    "all": "biotomod:blocks/skyoreminerguiitem",
+    "particle": "biotomod:blocks/skyoreminerguiitem",
+    "0": "biotomod:blocks/oak_planks",
+    "1": "biotomod:blocks/oak_log",
+    "2": "biotomod:blocks/oak_log_top",
+    "3": "biotomod:blocks/redstone_ore"
+  }
+}

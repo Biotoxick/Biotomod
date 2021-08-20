@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:parallelic_upgrade"
+    },
+    "title": {
+      "translate": "advancements.tier_1_upgrade.title"
+    },
+    "description": {
+      "translate": "advancements.tier_1_upgrade.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tier_1_upgrade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biotomod:parallelic_upgrade",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:goto_biotodim"
+}

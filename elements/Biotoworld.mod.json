@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Biotobiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.QUARTZ_BLOCK#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -13184816,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Mithrilblock"
+    },
+    "portalParticles": {
+      "value": "REVERSE_PORTAL"
+    },
+    "portalLuminance": 2,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Mithril Portal Openner",
+    "igniterTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "texture": "enchated_flint_and_steel",
+    "portalTexture": "biodim_portal_animation",
+    "enablePortal": true
+  }
+}

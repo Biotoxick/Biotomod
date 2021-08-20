@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.IRON_ORE"
+    },
+    "name": "ironorereceipe",
+    "namespace": "mod"
+  }
+}

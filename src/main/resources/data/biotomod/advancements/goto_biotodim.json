@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:biotoworld"
+    },
+    "title": {
+      "translate": "advancements.goto_biotodim.title"
+    },
+    "description": {
+      "translate": "advancements.goto_biotodim.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "goto_biotodim": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "biotomod:biotobiome"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:get_mithril_ingot"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_log",
+    "biotomod:oiledwooditem",
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:coal_block"
+  ]
+}

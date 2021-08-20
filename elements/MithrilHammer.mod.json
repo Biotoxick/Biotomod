@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "new_regenaration_hammer",
+    "customModelName": "Normal",
+    "name": "Mithril Hammer",
+    "specialInfo": [
+      "-A 3x3 Hammer"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.5,
+    "attackSpeed": 1.3,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MithrilIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Hammer"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biotomod:parallelic"
+    },
+    "1": {
+      "item": "biotomod:parallelic"
+    },
+    "2": {
+      "item": "biotomod:parallelic"
+    },
+    "3": {
+      "item": "biotomod:parallelic"
+    },
+    "4": {
+      "item": "biotomod:parallelic"
+    },
+    "5": {
+      "item": "biotomod:parallelic"
+    },
+    "6": {
+      "item": "biotomod:parallelic"
+    },
+    "7": {
+      "item": "biotomod:parallelic"
+    },
+    "8": {
+      "item": "biotomod:parallelic"
+    }
+  },
+  "result": {
+    "item": "biotomod:parallelic_block",
+    "count": 1
+  }
+}

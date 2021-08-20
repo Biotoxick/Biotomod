@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "diamond_block",
+        "1": "coal_block",
+        "2": "parallelic_ore_block",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

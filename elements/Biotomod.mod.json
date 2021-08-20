@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Biotomod",
+    "icon": {
+      "value": "CUSTOM:Platinium"
+    },
+    "showSearch": true
+  }
+}

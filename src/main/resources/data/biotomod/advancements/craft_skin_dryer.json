@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:skin_dryer"
+    },
+    "title": {
+      "translate": "advancements.craft_skin_dryer.title"
+    },
+    "description": {
+      "translate": "advancements.craft_skin_dryer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_skin_dryer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biotomod:skin_dryer",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:start_with_biotomod"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "main": "skin_dryer_anim_texture"
+      },
+      "name": "skin.dryer.anim"
+    }
+  }
+}

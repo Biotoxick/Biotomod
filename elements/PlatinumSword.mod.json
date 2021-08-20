@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platinum_sword",
+    "customModelName": "Normal",
+    "name": "Platinum Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 16.0,
+    "attackSpeed": 0.8,
+    "enchantability": 30,
+    "damageVsEntity": 15.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatiniumShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

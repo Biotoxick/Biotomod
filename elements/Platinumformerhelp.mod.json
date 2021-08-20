@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 108,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "platium_craft.png",
+          "use1Xscale": true,
+          "name": "platium_craft.png",
+          "x": 136,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "Closeallgui"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 186,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

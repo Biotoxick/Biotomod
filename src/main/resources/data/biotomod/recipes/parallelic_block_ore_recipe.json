@@ -1,0 +1,13 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biotomod:parallelic_block"
+    }
+  ],
+  "result": {
+    "item": "biotomod:parallelic",
+    "count": 9
+  }
+}

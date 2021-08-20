@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "Items.COAL#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.COAL_ORE"
+    },
+    "name": "coalorereceipe",
+    "namespace": "mod"
+  }
+}

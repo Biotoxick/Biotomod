@@ -1,0 +1,133 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Portable Teleporter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Portable Teleporter",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Purple slots are just a stock.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Purple slots are just a stock.",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Green slot is for the active ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Green slot is for the active ",
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Teleporter Binder.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Teleporter Binder.",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Tp button to use binder in",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Tp button to use binder in",
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "green slot.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "green slot.",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "-Rename button to rename the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Rename button to rename the",
+          "x": 132,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "active Teleporter Binder",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "active Teleporter Binder",
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "Closeallgui"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Close",
+          "x": 186,
+          "y": 170
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_block"
+    },
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "2": {
+      "item": "minecraft:iron_block"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    },
+    "4": {
+      "item": "biotomod:iron_gear"
+    },
+    "5": {
+      "item": "minecraft:coal"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:coal"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "biotomod:comnustion_generator",
+    "count": 1
+  }
+}

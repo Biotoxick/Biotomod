@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=1": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=2": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=3": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=4": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=5": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=6": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=7": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=8": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=9": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=10": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=11": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=12": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=13": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=14": {
+      "model": "biotomod:block/oiledcane"
+    },
+    "age=15": {
+      "model": "biotomod:block/oiledcane"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "biotomod:mithril_ingot"
+    },
+    "title": {
+      "translate": "advancements.get_mithril_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.get_mithril_ingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_mithril_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "biotomod:mithril_ingot",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "biotomod:craft_sky_ore_miner"
+}

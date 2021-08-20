@@ -1,0 +1,12 @@
+{
+  "group": "mithril_ingot",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 251,
+  "ingredient": {
+    "item": "biotomod:mithrilore"
+  },
+  "result": {
+    "item": "biotomod:mithril_ingot"
+  }
+}

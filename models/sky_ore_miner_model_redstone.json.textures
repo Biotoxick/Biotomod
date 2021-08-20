@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "oak_log",
+        "2": "oak_log_top",
+        "3": "redstone_ore"
+      },
+      "name": "default"
+    }
+  }
+}

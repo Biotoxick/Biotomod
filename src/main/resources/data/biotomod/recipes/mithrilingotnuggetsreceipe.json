@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "1": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "2": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "3": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "4": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "5": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "6": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "7": {
+      "item": "biotomod:mithril_nugget"
+    },
+    "8": {
+      "item": "biotomod:mithril_nugget"
+    }
+  },
+  "result": {
+    "item": "biotomod:mithril_ingot",
+    "count": 1
+  }
+}

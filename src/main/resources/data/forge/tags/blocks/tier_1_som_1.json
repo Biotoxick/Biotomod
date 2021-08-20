@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "biotomod:skyoreminer",
+    "biotomod:skyoreminercoal",
+    "biotomod:skyoreminertitane",
+    "biotomod:skyoreminerclay",
+    "biotomod:skyoreminerquartz",
+    "biotomod:skyoremineracientdebris",
+    "biotomod:skyoremineremerald",
+    "biotomod:skyoreminerdiamond",
+    "biotomod:skyoreminerlapis",
+    "biotomod:skyoreminergold",
+    "biotomod:skyoreminerredstone",
+    "biotomod:skyoremineriron",
+    "biotomod:skyoreminermithril",
+    "biotomod:skuoreminerobsidian"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Skyoreminer"
+      },
+      {
+        "value": "CUSTOM:Skyoreminercoal"
+      },
+      {
+        "value": "CUSTOM:Skyoreminertitane"
+      },
+      {
+        "value": "CUSTOM:Skyoreminerclay"
+      },
+      {
+        "value": "CUSTOM:Skyoreminerquartz"
+      },
+      {
+        "value": "CUSTOM:Skyoremineracientdebris"
+      },
+      {
+        "value": "CUSTOM:Skyoremineremerald"
+      },
+      {
+        "value": "CUSTOM:Skyoreminerdiamond"
+      },
+      {
+        "value": "CUSTOM:Skyoreminerlapis"
+      },
+      {
+        "value": "CUSTOM:Skyoreminergold"
+      },
+      {
+        "value": "CUSTOM:Skyoreminerredstone"
+      },
+      {
+        "value": "CUSTOM:Skyoremineriron"
+      },
+      {
+        "value": "CUSTOM:Skyoreminermithril"
+      },
+      {
+        "value": "CUSTOM:Skuoreminerobsidian"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "tier_1_som_1",
+    "namespace": "forge"
+  }
+}

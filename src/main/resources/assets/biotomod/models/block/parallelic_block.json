@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "biotomod:blocks/parallelic_ore_block",
+    "particle": "biotomod:blocks/parallelic_ore_block"
+  }
+}

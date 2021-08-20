@@ -1,0 +1,42 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biotomod:mithrilblock"
+    },
+    "1": {
+      "item": "biotomod:oiledwooditem"
+    },
+    "2": {
+      "item": "biotomod:mithrilblock"
+    },
+    "3": {
+      "item": "biotomod:oiledwooditem"
+    },
+    "4": {
+      "item": "minecraft:blast_furnace"
+    },
+    "5": {
+      "item": "biotomod:oiledwooditem"
+    },
+    "6": {
+      "item": "biotomod:mithrilblock"
+    },
+    "7": {
+      "item": "biotomod:oiledwooditem"
+    },
+    "8": {
+      "item": "biotomod:mithrilblock"
+    }
+  },
+  "result": {
+    "item": "biotomod:mithril_blast_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "biotomod:custom/teleporterframe",
+  "textures": {
+    "all": "biotomod:blocks/pack",
+    "particle": "biotomod:blocks/pack",
+    "0": "biotomod:blocks/ancient_debris_side",
+    "1": "biotomod:blocks/netherrack",
+    "2": "biotomod:blocks/obsidian",
+    "3": "biotomod:blocks/texture_3",
+    "missing": "biotomod:blocks/texture_3"
+  }
+}

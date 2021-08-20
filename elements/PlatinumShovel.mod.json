@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "platinum_shovel",
+    "customModelName": "Normal",
+    "name": "Platinum Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 30,
+    "damageVsEntity": 7.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatiniumShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
