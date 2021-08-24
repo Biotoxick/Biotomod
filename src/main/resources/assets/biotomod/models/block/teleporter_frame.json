@@ -6,7 +6,7 @@
     "0": "biotomod:blocks/ancient_debris_side",
     "1": "biotomod:blocks/netherrack",
     "2": "biotomod:blocks/obsidian",
-    "3": "biotomod:blocks/texture_3",
-    "missing": "biotomod:blocks/texture_3"
+    "3": "biotomod:blocks/nether_portal",
+    "missing": "biotomod:blocks/"
   }
 }

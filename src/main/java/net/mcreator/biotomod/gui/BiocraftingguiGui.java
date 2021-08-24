@@ -18,6 +18,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.network.PacketBuffer;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.ContainerType;
@@ -29,6 +30,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.biotomod.procedures.GuihelpplatinumcrafterProcedure;
+import net.mcreator.biotomod.item.MithrilIngotItem;
 import net.mcreator.biotomod.BiotomodModElements;
 import net.mcreator.biotomod.BiotomodMod;
 
@@ -76,7 +78,7 @@ public class BiocraftingguiGui extends BiotomodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(10);
+			this.internal = new ItemStackHandler(11);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -115,28 +117,66 @@ public class BiocraftingguiGui extends BiotomodModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 17) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.DIAMOND, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 34, 17) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 17) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.DIAMOND, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 52, 17) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 16, 53) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.DIAMOND, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 16, 35) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 52, 53) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.DIAMOND, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 34, 35) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(Items.GLOWSTONE_DUST, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 52, 35) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 34, 17) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(MithrilIngotItem.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 16, 53) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 52, 35) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(MithrilIngotItem.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
 			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 34, 53) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(MithrilIngotItem.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 52, 53) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 16, 35) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (new ItemStack(MithrilIngotItem.block, (int) (1)).getItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 97, 35) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 115, 44) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
+			}));
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 17) {
 			}));
 			int si;
 			int sj;
@@ -163,18 +203,18 @@ public class BiocraftingguiGui extends BiotomodModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 10) {
-					if (!this.mergeItemStack(itemstack1, 10, this.inventorySlots.size(), true)) {
+				if (index < 11) {
+					if (!this.mergeItemStack(itemstack1, 11, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 10, false)) {
-					if (index < 10 + 27) {
-						if (!this.mergeItemStack(itemstack1, 10 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 11, false)) {
+					if (index < 11 + 27) {
+						if (!this.mergeItemStack(itemstack1, 11 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 10, 10 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 11, 11 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}

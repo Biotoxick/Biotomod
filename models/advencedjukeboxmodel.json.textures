@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jukebox_side",
+        "1": "jukebox_top",
+        "2": "mithril_block_texture"
+      },
+      "name": "default"
+    }
+  }
+}

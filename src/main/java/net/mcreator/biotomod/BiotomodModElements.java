@@ -46,6 +46,19 @@ public class BiotomodModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public BiotomodModElements() {
+		sounds.put(new ResourceLocation("biotomod", "vynilcrack"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "vynilcrack")));
+		sounds.put(new ResourceLocation("biotomod", "fine_day"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "fine_day")));
+		sounds.put(new ResourceLocation("biotomod", "flowig_time"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "flowig_time")));
+		sounds.put(new ResourceLocation("biotomod", "liquid_riot"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "liquid_riot")));
+		sounds.put(new ResourceLocation("biotomod", "liquid_serum"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "liquid_serum")));
+		sounds.put(new ResourceLocation("biotomod", "nru"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "nru")));
+		sounds.put(new ResourceLocation("biotomod", "overall"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "overall")));
+		sounds.put(new ResourceLocation("biotomod", "requiem"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "requiem")));
+		sounds.put(new ResourceLocation("biotomod", "soundcome"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "soundcome")));
+		sounds.put(new ResourceLocation("biotomod", "travel"), new net.minecraft.util.SoundEvent(new ResourceLocation("biotomod", "travel")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("biotomod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

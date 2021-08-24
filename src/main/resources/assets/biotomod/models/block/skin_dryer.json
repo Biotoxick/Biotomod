@@ -3,7 +3,7 @@
   "textures": {
     "all": "biotomod:blocks/skindryer",
     "particle": "biotomod:blocks/skindryer",
-    "0": "biotomod:blocks/texture_0",
-    "1": "biotomod:blocks/texture_1"
+    "0": "biotomod:blocks/trapdoor",
+    "1": "biotomod:blocks/oak_log_top_2"
   }
 }

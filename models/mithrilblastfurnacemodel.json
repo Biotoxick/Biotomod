@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "biotomod:blocks/mithril_block_texture",
-		"1": "blockbench/texture_1",
+		"1": "biotomod:blocks/coal_block",
 		"particle": "biotomod:blocks/mithril_block_texture"
 	},
 	"elements": [
@@ -320,7 +320,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [0, -180, 0]
+			"rotation": [-150, 45, -180],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
 			"translation": [0, 0, 5.75]

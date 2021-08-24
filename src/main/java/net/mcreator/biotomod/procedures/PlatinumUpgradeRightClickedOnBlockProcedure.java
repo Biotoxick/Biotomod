@@ -162,5 +162,7 @@ public class PlatinumUpgradeRightClickedOnBlockProcedure extends BiotomodModElem
 				}
 			}
 		}
+		if (entity instanceof PlayerEntity)
+			((PlayerEntity) entity).closeScreen();
 	}
 }

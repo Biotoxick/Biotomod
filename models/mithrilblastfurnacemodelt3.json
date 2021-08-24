@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blockbench/texture_0",
-		"1": "blockbench/texture_1",
-		"2": "blockbench/texture_2",
-		"particle": "blockbench/texture_0"
+		"0": "biotomod:blocks/diamond_block",
+		"1": "biotomod:blocks/coal_block",
+		"2": "biotomod:blocks/parallelic_ore_block",
+		"particle": "biotomod:blocks/diamond_block"
 	},
 	"elements": [
 		{
@@ -465,7 +465,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [0, -180, 0]
+			"rotation": [-150, 45, -180],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
 			"translation": [0, 0, 5.75]

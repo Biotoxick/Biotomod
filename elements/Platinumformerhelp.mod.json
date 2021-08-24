@@ -16,8 +16,8 @@
           "image": "platium_craft.png",
           "use1Xscale": true,
           "name": "platium_craft.png",
-          "x": 136,
-          "y": 94
+          "x": 129,
+          "y": 101
         }
       },
       {
@@ -30,8 +30,70 @@
           "width": 50,
           "height": 20,
           "name": "Close",
-          "x": 186,
-          "y": 71
+          "x": 129,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Green",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Green",
+          "x": 181,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "input is for",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "input is for",
+          "x": 229,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "automations with",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "automations with",
+          "x": 181,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "platautores.png",
+          "use1Xscale": true,
+          "name": "platautores.png",
+          "x": 249,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Platinum Automator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Platinum Automator",
+          "x": 160,
+          "y": 93
         }
       }
     ]

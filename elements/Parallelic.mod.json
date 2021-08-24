@@ -8,7 +8,7 @@
     "name": "Parallelic",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Biotomod"
     },
     "stackSize": 64,
     "enchantability": 0,

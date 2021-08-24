@@ -61,7 +61,9 @@ public class ParallelicUpgradeItem extends BiotomodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("-Can upgrade SKy ore miners"));
+			list.add(new StringTextComponent("-Upgrade Sky Ore Miners"));
+			list.add(new StringTextComponent("-Upgrade Mithril Furnace"));
+			list.add(new StringTextComponent("-Upgrade Combustion Generator"));
 		}
 
 		@Override

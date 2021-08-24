@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "soundcometxt",
+    "name": "B-821",
+    "description": "Sound Come to Us -by- Biotoxick",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "music": {
+      "value": "CUSTOM:soundcome"
+    },
+    "specialInfo": [
+      "More on : https://soundcloud.com/biotoxick"
+    ],
+    "hasGlow": false
+  }
+}

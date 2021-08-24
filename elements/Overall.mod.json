@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "overalltxt",
+    "name": "B-118",
+    "description": "Overall -by- Biotoxick",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "music": {
+      "value": "CUSTOM:overall"
+    },
+    "specialInfo": [
+      "More on : https://soundcloud.com/biotoxick"
+    ],
+    "hasGlow": false
+  }
+}

@@ -1,1 +1,102 @@
-{}
+{
+  "vynilcrack": {
+    "category": "block",
+    "subtitle": "subtitles.vynilcrack",
+    "sounds": [
+      {
+        "name": "biotomod:vynilcrack",
+        "stream": false
+      }
+    ]
+  },
+  "fine_day": {
+    "category": "record",
+    "subtitle": "subtitles.fine_day",
+    "sounds": [
+      {
+        "name": "biotomod:fine_day_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "flowig_time": {
+    "category": "record",
+    "subtitle": "subtitles.flowig_time",
+    "sounds": [
+      {
+        "name": "biotomod:flowing_time_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "liquid_riot": {
+    "category": "record",
+    "subtitle": "subtitles.liquid_riot",
+    "sounds": [
+      {
+        "name": "biotomod:liquid_riot_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "liquid_serum": {
+    "category": "record",
+    "subtitle": "subtitles.liquid_serum",
+    "sounds": [
+      {
+        "name": "biotomod:liquid_serum_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "nru": {
+    "category": "record",
+    "subtitle": "subtitles.nru",
+    "sounds": [
+      {
+        "name": "biotomod:nru_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "overall": {
+    "category": "record",
+    "subtitle": "subtitles.overall",
+    "sounds": [
+      {
+        "name": "biotomod:overall_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "requiem": {
+    "category": "record",
+    "subtitle": "subtitles.requiem",
+    "sounds": [
+      {
+        "name": "biotomod:requiem_of_the_fierce_wolf_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "soundcome": {
+    "category": "record",
+    "subtitle": "subtitles.soundcome",
+    "sounds": [
+      {
+        "name": "biotomod:sound_come_to_us_-_biotoxick",
+        "stream": true
+      }
+    ]
+  },
+  "travel": {
+    "category": "record",
+    "subtitle": "subtitles.travel",
+    "sounds": [
+      {
+        "name": "biotomod:travel_to_the_moon_-_biotoxick",
+        "stream": true
+      }
+    ]
+  }
+}

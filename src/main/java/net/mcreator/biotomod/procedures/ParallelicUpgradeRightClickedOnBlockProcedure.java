@@ -224,5 +224,7 @@ public class ParallelicUpgradeRightClickedOnBlockProcedure extends BiotomodModEl
 				}
 			}
 		}
+		if (entity instanceof PlayerEntity)
+			((PlayerEntity) entity).closeScreen();
 	}
 }

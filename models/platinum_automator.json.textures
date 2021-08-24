@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "platinium_ore_ressource",
+        "1": "glass_cyan"
+      },
+      "name": "default"
+    }
+  }
+}

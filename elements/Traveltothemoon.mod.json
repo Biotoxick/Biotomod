@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "traveltxt",
+    "name": "B-462",
+    "description": "Travel to the Moon -by- Biotoxick",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "music": {
+      "value": "CUSTOM:travel"
+    },
+    "specialInfo": [
+      "More on : https://soundcloud.com/biotoxick"
+    ],
+    "hasGlow": false
+  }
+}

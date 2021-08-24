@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "biotomod:block/reservoir"
+    },
+    "facing=east": {
+      "model": "biotomod:block/reservoir",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "biotomod:block/reservoir",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "biotomod:block/reservoir",
+      "y": 270
+    }
+  }
+}

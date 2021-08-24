@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PlatiniumShard"
+        "value": "Items.DIAMOND"
       },
       {
         "value": "CUSTOM:Parallelic"
       },
       {
-        "value": "CUSTOM:PlatiniumShard"
+        "value": "Items.DIAMOND"
       },
       {
         "value": "CUSTOM:Parallelic"
@@ -28,13 +28,13 @@
         "value": "CUSTOM:Parallelic"
       },
       {
-        "value": "CUSTOM:PlatiniumShard"
+        "value": "Items.DIAMOND"
       },
       {
         "value": "CUSTOM:Parallelic"
       },
       {
-        "value": "CUSTOM:PlatiniumShard"
+        "value": "Items.DIAMOND"
       }
     ],
     "recipeReturnStack": {

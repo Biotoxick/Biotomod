@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "biotomod:platinium_shard"
+      "item": "minecraft:diamond"
     },
     "1": {
       "item": "biotomod:parallelic"
     },
     "2": {
-      "item": "biotomod:platinium_shard"
+      "item": "minecraft:diamond"
     },
     "3": {
       "item": "biotomod:parallelic"
@@ -26,13 +26,13 @@
       "item": "biotomod:parallelic"
     },
     "6": {
-      "item": "biotomod:platinium_shard"
+      "item": "minecraft:diamond"
     },
     "7": {
       "item": "biotomod:parallelic"
     },
     "8": {
-      "item": "biotomod:platinium_shard"
+      "item": "minecraft:diamond"
     }
   },
   "result": {

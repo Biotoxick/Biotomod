@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "requiemtxt",
+    "name": "B-690",
+    "description": "Requiem of the Fierce Wolf -by- Biotoxick",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "music": {
+      "value": "CUSTOM:requiem"
+    },
+    "specialInfo": [
+      "More on : https://soundcloud.com/biotoxick"
+    ],
+    "hasGlow": false
+  }
+}

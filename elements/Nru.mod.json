@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "nrutxt",
+    "name": "B-023",
+    "description": "Nru -by- Biotoxick",
+    "creativeTab": {
+      "value": "CUSTOM:Biotomod"
+    },
+    "music": {
+      "value": "CUSTOM:nru"
+    },
+    "specialInfo": [
+      "More on : https://soundcloud.com/biotoxick"
+    ],
+    "hasGlow": false
+  }
+}

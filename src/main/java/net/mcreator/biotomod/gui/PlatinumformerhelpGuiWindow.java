@@ -52,7 +52,9 @@ public class PlatinumformerhelpGuiWindow extends ContainerScreen<Platinumformerh
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("biotomod:textures/platium_craft.png"));
-		this.blit(ms, this.guiLeft + 10, this.guiTop + 28, 0, 0, 150, 70, 150, 70);
+		this.blit(ms, this.guiLeft + 3, this.guiTop + 35, 0, 0, 150, 70, 150, 70);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("biotomod:textures/platautores.png"));
+		this.blit(ms, this.guiLeft + 123, this.guiTop + 18, 0, 0, 50, 50, 50, 50);
 		RenderSystem.disableBlend();
 	}
 
@@ -72,6 +74,10 @@ public class PlatinumformerhelpGuiWindow extends ContainerScreen<Platinumformerh
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "The Green", 55, 3, -12829636);
+		this.font.drawString(ms, "input is for", 103, 3, -12829636);
+		this.font.drawString(ms, "automations with", 55, 15, -12829636);
+		this.font.drawString(ms, "Platinum Automator", 34, 27, -12829636);
 	}
 
 	@Override
@@ -84,7 +90,7 @@ public class PlatinumformerhelpGuiWindow extends ContainerScreen<Platinumformerh
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 60, this.guiTop + 5, 50, 20, new StringTextComponent("Close"), e -> {
+		this.addButton(new Button(this.guiLeft + 3, this.guiTop + 4, 50, 20, new StringTextComponent("Close"), e -> {
 			if (true) {
 				BiotomodMod.PACKET_HANDLER.sendToServer(new PlatinumformerhelpGui.ButtonPressedMessage(0, x, y, z));
 				PlatinumformerhelpGui.handleButtonAction(entity, 0, x, y, z);

@@ -25,7 +25,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "-Can upgrade SKy ore miners"
+      "-Upgrade Sky Ore Miners",
+      "-Upgrade Mithril Furnace",
+      "-Upgrade Combustion Generator"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

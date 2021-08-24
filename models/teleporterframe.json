@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blockbench/texture_0",
-		"1": "blockbench/texture_1",
-		"2": "blockbench/texture_2",
-		"3": "blockbench/texture_3",
-		"particle": "blockbench/texture_0"
+		"0": "biotomod:blocks/ancient_debris_side",
+		"1": "biotomod:blocks/netherrack",
+		"2": "biotomod:blocks/obsidian",
+		"3": "biotomod:blocks/nether_portal",
+		"particle": "biotomod:blocks/ancient_debris_side"
 	},
 	"elements": [
 		{
@@ -194,8 +194,9 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"rotation": [90, 0, 0],
-			"translation": [0, 0, 13]
+			"rotation": [-150, 45, -180],
+			"translation": [0, 3.5, 0],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],

@@ -1,0 +1,30 @@
+{
+  "group": "biotomod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "biotomod:platinium_stick"
+    },
+    "3": {
+      "item": "biotomod:platinium_stick"
+    },
+    "4": {
+      "item": "biotomod:biotable"
+    },
+    "5": {
+      "item": "biotomod:platinium_stick"
+    },
+    "7": {
+      "item": "biotomod:platinium_stick"
+    }
+  },
+  "result": {
+    "item": "biotomod:platium_automator",
+    "count": 1
+  }
+}

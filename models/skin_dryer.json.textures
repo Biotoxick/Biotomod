@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "texture_0",
-        "1": "texture_1"
+        "0": "trapdoor",
+        "1": "oak_log_top_2"
       },
       "name": "default"
     }

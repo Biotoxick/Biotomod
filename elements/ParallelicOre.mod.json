@@ -102,7 +102,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Biotoworld"
     ],
     "restrictionBiomes": [
       {
@@ -111,9 +111,6 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
         "value": "Blocks.QUARTZ_BLOCK#0"
       },
       {
@@ -121,11 +118,14 @@
       },
       {
         "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Blocks.FLOWING_WATER"
       }
     ],
-    "frequencyPerChunks": 4,
+    "frequencyPerChunks": 7,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 75
+    "maxGenerateHeight": 80
   }
 }

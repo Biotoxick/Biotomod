@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "oiled_wood",
     "customModelName": "Normal",
-    "name": "Oiledwooditem",
+    "name": "Oiled wood stick",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Biotomod"

@@ -2,6 +2,7 @@ package net.mcreator.biotomod.procedures;
 
 import net.minecraftforge.fml.network.NetworkHooks;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
@@ -63,85 +64,42 @@ public class TeleporterprocedurewhenwalkProcedure extends BiotomodModElements.Mo
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		{
-			Entity _ent = entity;
-			if (_ent instanceof ServerPlayerEntity) {
-				BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
-				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
-					@Override
-					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Teleportergui");
-					}
-
-					@Override
-					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new TeleporterguiGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
-					}
-				}, _bpos);
-			}
-		}
-		if ((((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				Entity _ent = entity;
-				if (_ent instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) _ent).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
-						}
-					}
-				}
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack((int) (0))).getOrCreateTag().getBoolean("Linked")) == (true))) {
+		if (((world instanceof World ? (((World) world).getDimensionKey()) : World.OVERWORLD) == (World.OVERWORLD))) {
 			{
 				Entity _ent = entity;
-				_ent.setPositionAndUpdate(((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("x")), ((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("y")), ((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")));
 				if (_ent instanceof ServerPlayerEntity) {
-					((ServerPlayerEntity) _ent).connection.setPlayerLocation(((new Object() {
+					BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
+					NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
+						@Override
+						public ITextComponent getDisplayName() {
+							return new StringTextComponent("Teleportergui");
+						}
+
+						@Override
+						public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
+							return new TeleporterguiGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
+				}
+			}
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getOrCreateTag().getBoolean("Linked")) == (true))) {
+				{
+					Entity _ent = entity;
+					_ent.setPositionAndUpdate(((new Object() {
 						public ItemStack getItemStack(int sltid) {
 							Entity _ent = entity;
 							if (_ent instanceof ServerPlayerEntity) {
@@ -183,72 +141,117 @@ public class TeleporterprocedurewhenwalkProcedure extends BiotomodModElements.Mo
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")), _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+					}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")));
+					if (_ent instanceof ServerPlayerEntity) {
+						((ServerPlayerEntity) _ent).connection.setPlayerLocation(((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("x")), ((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("y")), ((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")), _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+					}
 				}
-			}
-			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent((("You was teleported to") + "" + ("x") + "" + (((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+				if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+					((PlayerEntity) entity).sendStatusMessage(new StringTextComponent((("You was teleported to") + "" + ("x") + "" + (((new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
 								}
 							}
+							return ItemStack.EMPTY;
 						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("x"))) + "" + ("y") + "" + (((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+					}.getItemStack((int) (0))).getOrCreateTag().getDouble("x"))) + "" + ("y") + "" + (((new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
 								}
 							}
+							return ItemStack.EMPTY;
 						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("y"))) + "" + ("z") + "" + (((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+					}.getItemStack((int) (0))).getOrCreateTag().getDouble("y"))) + "" + ("z") + "" + (((new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
 								}
 							}
+							return ItemStack.EMPTY;
 						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("z"))))), (false));
+					}.getItemStack((int) (0))).getOrCreateTag().getDouble("z"))))), (false));
+				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).getCooldownTracker().setCooldown(((new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (0)))).getItem(), (int) 100);
 			}
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown(((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0)))).getItem(), (int) 100);
+				((PlayerEntity) entity).closeScreen();
 		}
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).closeScreen();
 	}
 }

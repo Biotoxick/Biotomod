@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/oak_planks",
-		"1": "block/oak_log",
-		"2": "block/oak_log_top (2)",
-		"particle": "block/oak_planks"
+		"0": "biotomod:blocks/oak_planks",
+		"1": "biotomod:blocks/oak_log",
+		"2": "biotomod:blocks/oak_log_top_2",
+		"particle": "biotomod:blocks/oak_planks"
 	},
 	"elements": [
 		{
@@ -281,7 +281,8 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"gui": {
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [-150, 45, -180],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
 			"translation": [0, 0, 6.5]

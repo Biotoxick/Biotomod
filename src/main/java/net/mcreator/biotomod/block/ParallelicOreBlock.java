@@ -80,13 +80,13 @@ public class ParallelicOreBlock extends BiotomodModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
-				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.SMOOTH_QUARTZ.getDefaultState().getBlock())
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.SMOOTH_QUARTZ.getDefaultState().getBlock())
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.QUARTZ_BLOCK.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.WATER.getDefaultState().getBlock())
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -105,15 +105,15 @@ public class ParallelicOreBlock extends BiotomodModElements.ModElement {
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.OVERWORLD)
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("biotomod:biotoworld")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(75)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(80)
+					.square().func_242731_b(7);
 			event.getRegistry().register(feature.setRegistryName("parallelic_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("biotomod:parallelic_ore"), configuredFeature);
 		}

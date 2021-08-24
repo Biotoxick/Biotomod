@@ -57,7 +57,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -90,7 +90,7 @@
     "hasInventory": true,
     "guiBoundTo": "Biocraftinggui",
     "openGUIOnRightClick": true,
-    "inventorySize": 10,
+    "inventorySize": 11,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -106,13 +106,14 @@
       5,
       6,
       7,
-      8
+      8,
+      10
     ],
     "hasEnergyStorage": true,
     "energyInitial": 0,
     "energyCapacity": 400000,
     "energyMaxReceive": 50000,
-    "energyMaxExtract": 0,
+    "energyMaxExtract": 50000,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],

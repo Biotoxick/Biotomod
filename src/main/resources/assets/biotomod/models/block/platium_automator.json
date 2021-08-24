@@ -1,0 +1,9 @@
+{
+  "parent": "biotomod:custom/platinum_automator",
+  "textures": {
+    "all": "biotomod:blocks/platautores",
+    "particle": "biotomod:blocks/platautores",
+    "0": "biotomod:blocks/platinium_ore_ressource",
+    "1": "biotomod:blocks/glass_cyan"
+  }
+}

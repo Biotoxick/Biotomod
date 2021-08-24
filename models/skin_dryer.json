@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/trapdoor",
-		"1": "block/oak_log_top (2)",
-		"particle": "block/trapdoor"
+		"0": "biotomod:blocks/trapdoor",
+		"1": "biotomod:blocks/oak_log_top_2",
+		"particle": "biotomod:blocks/trapdoor"
 	},
 	"elements": [
 		{
@@ -476,8 +476,8 @@
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"gui": {
-			"rotation": [90, 0, 0],
-			"scale": [0.9, 0.9, 0.9]
+			"rotation": [-150, 45, -180],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"head": {
 			"translation": [0, 6.5, 0]

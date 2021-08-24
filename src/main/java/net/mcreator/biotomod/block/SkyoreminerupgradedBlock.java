@@ -246,7 +246,7 @@ public class SkyoreminerupgradedBlock extends BiotomodModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Skyoreminerupgraded");
+						return new StringTextComponent("Sky ore miner upgraded");
 					}
 
 					@Override
@@ -381,7 +381,7 @@ public class SkyoreminerupgradedBlock extends BiotomodModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Skyoreminerupgraded");
+			return new StringTextComponent("Sky ore miner upgraded");
 		}
 
 		@Override

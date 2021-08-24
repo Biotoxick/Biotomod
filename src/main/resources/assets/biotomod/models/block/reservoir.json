@@ -1,0 +1,11 @@
+{
+  "parent": "biotomod:custom/reservoir",
+  "textures": {
+    "all": "biotomod:blocks/reservoirrss",
+    "particle": "biotomod:blocks/reservoirrss",
+    "0": "biotomod:blocks/hopper_top",
+    "1": "biotomod:blocks/hopper_inside",
+    "2": "biotomod:blocks/hopper_outside",
+    "missing": "biotomod:blocks/"
+  }
+}

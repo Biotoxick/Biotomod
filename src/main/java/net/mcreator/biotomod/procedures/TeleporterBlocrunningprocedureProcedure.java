@@ -1,5 +1,8 @@
 package net.mcreator.biotomod.procedures;
 
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
@@ -26,69 +29,32 @@ public class TeleporterBlocrunningprocedureProcedure extends BiotomodModElements
 				BiotomodMod.LOGGER.warn("Failed to load dependency entity for procedure TeleporterBlocrunningprocedure!");
 			return;
 		}
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				BiotomodMod.LOGGER.warn("Failed to load dependency world for procedure TeleporterBlocrunningprocedure!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				Entity _ent = entity;
-				if (_ent instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) _ent).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+		IWorld world = (IWorld) dependencies.get("world");
+		if (((world instanceof World ? (((World) world).getDimensionKey()) : World.OVERWORLD) == (World.OVERWORLD))) {
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
 						}
 					}
+					return ItemStack.EMPTY;
 				}
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack((int) (0))).getOrCreateTag().getBoolean("Linked")) == (true))) {
-			{
-				Entity _ent = entity;
-				_ent.setPositionAndUpdate(((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("x")), ((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("y")), ((new Object() {
-					public ItemStack getItemStack(int sltid) {
-						Entity _ent = entity;
-						if (_ent instanceof ServerPlayerEntity) {
-							Container _current = ((ServerPlayerEntity) _ent).openContainer;
-							if (_current instanceof Supplier) {
-								Object invobj = ((Supplier) _current).get();
-								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
-								}
-							}
-						}
-						return ItemStack.EMPTY;
-					}
-				}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")));
-				if (_ent instanceof ServerPlayerEntity) {
-					((ServerPlayerEntity) _ent).connection.setPlayerLocation(((new Object() {
+			}.getItemStack((int) (0))).getOrCreateTag().getBoolean("Linked")) == (true))) {
+				{
+					Entity _ent = entity;
+					_ent.setPositionAndUpdate(((new Object() {
 						public ItemStack getItemStack(int sltid) {
 							Entity _ent = entity;
 							if (_ent instanceof ServerPlayerEntity) {
@@ -130,11 +96,60 @@ public class TeleporterBlocrunningprocedureProcedure extends BiotomodModElements
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")), _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+					}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")));
+					if (_ent instanceof ServerPlayerEntity) {
+						((ServerPlayerEntity) _ent).connection.setPlayerLocation(((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("x")), ((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("y")), ((new Object() {
+							public ItemStack getItemStack(int sltid) {
+								Entity _ent = entity;
+								if (_ent instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) _ent).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											return ((Slot) ((Map) invobj).get(sltid)).getStack();
+										}
+									}
+								}
+								return ItemStack.EMPTY;
+							}
+						}.getItemStack((int) (0))).getOrCreateTag().getDouble("z")), _ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+					}
 				}
+				if (entity instanceof PlayerEntity)
+					((PlayerEntity) entity).closeScreen();
 			}
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).closeScreen();
+		} else {
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("\u00A7cYou may be use that in Overworld"), (false));
+			}
 		}
 	}
 }

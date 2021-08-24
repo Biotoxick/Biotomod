@@ -121,7 +121,7 @@ public class SkyoreminergoldBlock extends BiotomodModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1000);
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1750);
 		}
 
 		@Override
@@ -138,7 +138,7 @@ public class SkyoreminergoldBlock extends BiotomodModElements.ModElement {
 				$_dependencies.put("world", world);
 				SkyoreminergoldUpdateTickProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1000);
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1750);
 		}
 
 		@Override

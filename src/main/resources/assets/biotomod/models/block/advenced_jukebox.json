@@ -1,0 +1,10 @@
+{
+  "parent": "biotomod:custom/advencedjukeboxmodel",
+  "textures": {
+    "all": "biotomod:blocks/adjukress",
+    "particle": "biotomod:blocks/adjukress",
+    "0": "biotomod:blocks/jukebox_side",
+    "1": "biotomod:blocks/jukebox_top",
+    "2": "biotomod:blocks/mithril_block_texture"
+  }
+}
